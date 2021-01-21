@@ -11,15 +11,15 @@ Go4pets is e-commerce platform for pets suppliers that was built using Airtable(
 ## Wireframes
 
 Desktop View: 
-1. https://github.com/leeuwork/go4pets/blob/main/desktop%20view-main.jpeg?raw=true
-2. https://github.com/leeuwork/go4pets/blob/main/Untitled%20Diagram-Page-2.jpg?raw=true
+1. https://github.com/leeuwork/go4pets/blob/main/image/desktop%20view-main.jpeg?raw=true
+2. https://github.com/leeuwork/go4pets/blob/main/image/Untitled%20Diagram-Page-2.jpg?raw=true
 
 Phone view:
-1. https://github.com/leeuwork/go4pets/blob/main/phone-view.jpeg?raw=true
+1. https://github.com/leeuwork/go4pets/blob/main/image/phone-view.jpeg?raw=true
 
 
 Tablet view:
-1. https://github.com/leeuwork/go4pets/blob/main/tablet.jpg?raw=true
+1. https://github.com/leeuwork/go4pets/blob/main/image/tablet.jpg?raw=true
 
 ## Component Hierarchy
 1. https://github.com/leeuwork/go4pets/blob/main/Hierarchy.jpg?raw=true
