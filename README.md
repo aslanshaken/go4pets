@@ -1,70 +1,125 @@
-# Getting Started with Create React App
+# Project Overview
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Project Name
 
-## Available Scripts
+Go4Pets
 
-In the project directory, you can run:
+## Project Description
 
-### `npm start`
+Go4pets is e-commerce platform for pets suppliers that was built using Airtable(third-party) and React. It provides a service to customers who have pets. A user is able to see all available products, rating and their descriptions. Each item on home page leads to corresponding page that shows additional information. Additionally, a user is able to add their own item for sale.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Wireframes
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Desktop View: 
+1. https://github.com/leeuwork/go4pets/blob/main/desktop%20view-main.jpeg?raw=true
+2. https://github.com/leeuwork/go4pets/blob/main/Untitled%20Diagram-Page-2.jpg?raw=true
 
-### `npm test`
+Phone view:
+1. https://github.com/leeuwork/go4pets/blob/main/phone-view.jpeg?raw=true
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+Tablet view:
+1. https://github.com/leeuwork/go4pets/blob/main/tablet.jpg?raw=true
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Component Hierarchy
+1. https://github.com/leeuwork/go4pets/blob/main/Hierarchy.jpg?raw=true
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## API and Data Sample
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+```json
+{
+    "records": [
+        {
+            "id": "reclEKQ05Dn645j7J",
+            "fields": {
+                "Title": "Zesty Paws Allergy Immune Supplement for Dogs - with Omega 3",
+                "Rating": 4,
+                "Price": 26.9,
+                "Description": "Boost the Immune System – Zesty Paws Aller-Immune Bites are grain free soft chews that support immune, histamine, and digestive health for dogs with s...",
+                "Image": "https://images-na.ssl-images-amazon.com/images/I/819bgiVBleL._AC_SL1500_.jpg"
+            },
+            "createdTime": "2021-01-20T21:13:07.000Z"
+        },
+        {
+            "id": "reccFvsYiSzKbwrOe",
+            "fields": {
+                "Title": "Dog Back Seat Cover Protector Waterproof Scratchproof Nonslip Hammock for Dogs",
+                "Rating": 5,
+                "Price": 33.6,
+                "Image": "https://images-na.ssl-images-amazon.com/images/I/813q4c5N1vL._AC_SL1500_.jpg",
+                "Description": "DIRTY BARRIER, COMFORT LAYER - Forget about those cheap dog seat covers that ruined after one time use and ruin your seats... Those days are over! Act..."
+            },
+            "createdTime": "2021-01-20T21:13:07.000Z"
+        },
+        {
+            "id": "recKisMYwU4futPZA",
+            "fields": {
+                "Title": "Voyager Step-in Air Dog Harness - All Weather",
+                "Rating": 4,
+                "Price": 13.99,
+                "Image": "https://images-na.ssl-images-amazon.com/images/I/81jy-V87ucL._AC_SL1500_.jpg",
+                "Description": "Age range description: All Life Stages\nATTENTION: Sizing does NOT directly correspond to your pet’s breed or weight. Please MEASURE your pet and refer..."
+            },
+            "createdTime": "2021-01-20T21:13:07.000Z"
+        }
+    ],
+    "offset": "recKisMYwU4futPZA"
+}
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### MVP/PostMVP
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+#### MVP 
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+- A user is able to check available items for sale and their descriptions
+- A user is able to search items for sale
+- A user is able to add new item
 
-## Learn More
+#### PostMVP  
+- A user is able to sign up for new account and add information
+- A user is able to update and delete items using third-party airtable
+- Add additional API to show more info about pets
+- Use third-party to store user's information
+- Make the UI user-friendly
+- Make the tab-bar clickable and let a user to check all categories
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Project Schedule
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+|  Day | Deliverable | Status
+|---|---| ---|
+|January 20-30| Prompt / Wireframes / Priority Matrix / Timeframes | Incomplete
+|January 20| Project Approval | Incomplete
+|January 22| Core Application Structure (HTML, CSS, etc.) | Incomplete
+|January 25| Pseudocode / actual code | Incomplete
+|January 27| Initial Clickable Model  | Incomplete
+|January 30| MVP | Incomplete
+|February 2 | Presentations | Incomplete
 
-### Code Splitting
+## Timeframes
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+| Component                                                           | Priority | Estimated Time | Time Invested | Actual Time |
+| ------------------------------------------------------------------- | :------: | :------------: | :-----------: | :---------: |
+| Airtable setup                                                      | H        | 4hrs           | 0hrs          | 0hrs        |
+| Create react-app, and add url along with keys                       | H        | 1hrs           | 0hrs          | 0hrs        |
+| Nav bar                                                             | H        | 4hrs           | 0hrs          | 0hrs        |
+| All categories links                                                | H        | 2hrs           | 0hrs          | 0hrs        |
+| Get and show all items from airtable to page                        | H        | 5hrs           | 0hrs          | 0hrs        |
+| Add second airtable for user info and apply correct to account page | H        | 5hrs           | 0hrs          | 0hrs        |
+| Popular Brands                                                      | H        | 2hrs           | 0hrs          | 0hrs        |
+| Additional Posts                                                    | H        | 3hrs           | 0hrs          | 0hrs        |
+| Shopping Cart                                                       | H        | 5hrs           | 0hrs          | 0hrs        |
+| Search bar                                                          | H        | 5hrs           | 0hrs          | 0hrs        |
+| CSS                                                                 | H        | 10hrs          | 0hrs          | 0hrs        |
+| Total                                                               | H        | 45hrs          |               |             |
 
-### Analyzing the Bundle Size
+## SWOT Analysis
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### Strengths:
 
-### Making a Progressive Web App
+### Weaknesses:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### Opportunities:
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Threats:
