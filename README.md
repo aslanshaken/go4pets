@@ -114,7 +114,7 @@ Tablet view:
 | CSS                                                                 | H        | 10hrs          | 0hrs          | 0hrs        |
 | ____                                                                | H        | 0hrs           | 0hrs          | 0hrs        |
 | Draw.io                                                             | H        | 10hrs          | 0hrs          | 0hrs        |
-| Total                                                               | H        | 45hrs          |               |             |
+| Total                                                               | H        | 0hrs          |               |             |
 
 ## SWOT Analysis
 
