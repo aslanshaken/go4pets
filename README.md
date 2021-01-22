@@ -112,6 +112,8 @@ Tablet view:
 | Shopping Cart                                                       | H        | 5hrs           | 0hrs          | 0hrs        |
 | Search bar                                                          | H        | 5hrs           | 0hrs          | 0hrs        |
 | CSS                                                                 | H        | 10hrs          | 0hrs          | 0hrs        |
+| ____                                                                | H        | 0hrs           | 0hrs          | 0hrs        |
+| Draw.io                                                             | H        | 10hrs          | 0hrs          | 0hrs        |
 | Total                                                               | H        | 45hrs          |               |             |
 
 ## SWOT Analysis
