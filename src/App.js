@@ -6,7 +6,7 @@ import { baseURL, config } from "./services";
 import { useEffect, useState } from "react";
 import Home from "./components/Home";
 import Showsearcheditem from "./components/Showsearcheditem";
-
+import Item from "./components/Item";
 
 
 
@@ -40,6 +40,10 @@ function App() {
       
       <Route path="/search/:value" >
         <Showsearcheditem items={items} />
+      </Route>
+
+      <Route path="/item/:id" >
+        <Item items={items} />
       </Route>
 
 

@@ -5,7 +5,7 @@
     height: 34px;
     font-weight: 900;
     border-color: #ddd;
-    
+
 }
 
 .searchBar {
@@ -19,46 +19,58 @@
     width: 700px;
     height: 28px;
     border: 2px solid rgb(67, 5, 5);
-    
+
 }
 
-.searchRow{
+.searchRow {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    
+    margin-top: 50px;
+
 }
 
-.showSearchItem{
-    margin-top: 50px;
+.showSearchItem {
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
     border: 2px solid rgb(67, 5, 5);
-    
+
 }
 
-.showSearchItem div{
+.showSearchItem div {
     margin: 15px;
 }
 
-.searchLeft, .searchRight{
-    width: 600px;
+.searchLeft,
+.searchRight {
+    min-width: 550px;
 }
 
-#searchImage{
+#searchImage {
     width: 100px;
     height: 100px;
 }
 
-#searchTitle{
+#searchTitle {
     font-size: 15px;
-    
+
 }
 
-.searchMiddle{
+.searchMiddle {
     display: flex;
     flex-direction: unset;
     justify-content: space-around;
+}
+
+/* ITEM */
+#itemImage {
+    width: 200px;
+    height: 300px;
+}
+
+#itemDescription{
+    font-weight: 700;
+    font-style: italic;
 }

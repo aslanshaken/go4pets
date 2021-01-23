@@ -1,6 +1,6 @@
 import { useState } from "react";
-import { Route, Link } from "react-router-dom";
-import Showsearcheditem from "./Showsearcheditem";
+import {Link } from "react-router-dom";
+
 
 
 function Search() {

@@ -1,5 +1,6 @@
 import { useParams } from "react-router-dom";
 import Nav from "./Nav";
+import { Link } from "react-router-dom";
 
 function Showsearcheditem(props) {
     const params = useParams();
@@ -18,7 +19,9 @@ function Showsearcheditem(props) {
                             return (
 
                                 <div className="showSearchItem" >
-                                    <div> <img id="searchImage" src={item.fields.image} /></div>
+                                    <Link to={`/item/${item.id}`}>
+                                        <div> <img id="searchImage" src={item.fields.image} /></div>
+                                    </Link>
                                     <div><p>-------------------------------------------</p> </div>
                                     <div id="searchTitle" >{item.fields.title} </div>
                                     <div><h4>Rating: {item.fields.rating}</h4></div>
