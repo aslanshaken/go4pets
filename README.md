@@ -113,9 +113,10 @@ Tablet view:
 | Search bar                                                          | H        | 5hrs           | 0hrs          | 0hrs        |
 | CSS                                                                 | H        | 10hrs          | 0hrs          | 0hrs        |
 | ____                                                                | H        | 0hrs           | 0hrs          | 0hrs        |
-| Draw.io                                                             | H        | 10hrs         | 0hrs          | 0hrs        |
-|Airtable add info                                            | H        | 1hrs           | 0hrs          | 0hrs        |
-| Total                                                               | H        | 0hrs          |               |             |
+| Draw.io                                                             | H        | 10hrs          | 0hrs          | 0hrs        |
+| Airtable add info                                                   | H        | 1hrs           | 0hrs          | 0hrs        |
+| Search bar                                                          | H        | 10hrs          | 0hrs          | 0hrs        |
+| Total                                                               | H        | 0hrs           |               |             |
 
 ## SWOT Analysis
 
