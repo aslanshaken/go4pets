@@ -7,10 +7,13 @@ function Search() {
     const [searchedItem, setSearchedItem] = useState("")
 
     return (
-        <div>
+        <div className="searchBar" >
             <form >
-            <Link to={`/search/${searchedItem}`}><button type="submit">Search</button></Link>
+            <Link to={`/search/${searchedItem}`}>
+                <button type="submit" disabled={!searchedItem} id="searchButton" >Search</button>
+            </Link>
                 <input
+                    id="searchInput"
                     type="text"
                     value={searchedItem}
                     onChange={(e) => setSearchedItem(e.target.value)}

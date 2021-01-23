@@ -1,13 +1,40 @@
 import { useParams } from "react-router-dom";
+import Nav from "./Nav";
 
-function Showsearcheditem (props) {
+function Showsearcheditem(props) {
     const params = useParams();
+    console.log(props.items)
 
-    return(
+    return (
         <div>
-            dfds
-            {params.value}
-            
+            <Nav />
+
+            <div className="searchRow">
+                <div className="searchLeft" > LEFT </div>
+                <div className="searchMiddle" >
+
+                    {props.items.map((item) => {
+                        if (item.fields.title.toLowerCase().indexOf(params.value) >= 0) {
+                            return (
+
+                                <div className="showSearchItem" >
+                                    <div> <img id="searchImage" src={item.fields.image} /></div>
+                                    <div><p>-------------------------------------------</p> </div>
+                                    <div id="searchTitle" >{item.fields.title} </div>
+                                    <div><h4>Rating: {item.fields.rating}</h4></div>
+                                    <div><h4>Price: ${item.fields.price}</h4></div>
+                                </div>
+
+                            )
+                        }
+                    })}
+                </div>
+
+                <div className="searchRight" > RIGHT </div>
+
+
+            </div>
+
         </div>
     )
 }

@@ -39,8 +39,10 @@ function App() {
       </Route>
       
       <Route path="/search/:value" >
-        <Showsearcheditem />
+        <Showsearcheditem items={items} />
       </Route>
+
+
 
 
     </div>
