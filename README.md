@@ -117,7 +117,9 @@ Tablet view:
 | Airtable add info                                                   | H        | 1hrs           | 0hrs          | 0hrs        |
 | Search bar                                                          | H        | 10hrs          | 0hrs          | 0hrs        |
 | Hamburger bar -> all categories                                     | H        | 6hrs           | 0hrs          | 0hrs        |
+| Main iamge with circles                                             | H        | 1hrs           | 0hrs          | 0hrs        |
 | Total                                                               | H        | 0hrs           |               |             |
+
 
 ## SWOT Analysis
 
