@@ -45,7 +45,7 @@
 
 .searchLeft,
 .searchRight {
-    min-width: 550px;
+    min-width: 500px;
 }
 
 #searchImage {
@@ -66,11 +66,37 @@
 
 /* ITEM */
 #itemImage {
-    width: 200px;
+    width: 300px;
     height: 300px;
 }
 
-#itemDescription{
+#itemDescription {
     font-weight: 700;
     font-style: italic;
+}
+
+
+/* All Categories */
+#hamburgerImg {
+    width: 40px;
+    height: 30px;
+}
+
+.hamburgerMain {
+    margin: -35px 0px 0px 100px;
+    /* border: 2px solid black; */
+}
+
+.allCategoriesLinks {
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid black; */
+}
+
+#noUnder{ 
+    text-decoration: none !important;
+    color: brown;
+    margin: 10px 0px 10px 0px;
+    font-size: 18px;
+    /* border: 2px solid black; */
 }

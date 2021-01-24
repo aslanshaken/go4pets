@@ -7,6 +7,12 @@ import { useEffect, useState } from "react";
 import Home from "./components/Home";
 import Showsearcheditem from "./components/Showsearcheditem";
 import Item from "./components/Item";
+import Dogs from "./components/Dogs";
+import Cats from "./components/Cats";
+import Fish from "./components/Fish";
+import Birds from "./components/Birds";
+import Deals from "./components/Deals";
+import Account from "./components/Account";
 
 
 
@@ -37,7 +43,7 @@ function App() {
       <Route exact path="/">
         <Home items={items} />
       </Route>
-      
+
       <Route path="/search/:value" >
         <Showsearcheditem items={items} />
       </Route>
@@ -46,10 +52,35 @@ function App() {
         <Item items={items} />
       </Route>
 
+      <Route path="/dogs">
+        <Dogs items={items} />
+      </Route>
+
+      <Route path="/cats">
+        <Cats items={items} />
+      </Route >
+
+      <Route path="/fish">
+        <Fish items={items} />
+      </Route >
+
+      <Route path="/birds">
+        <Birds items={items} />
+      </Route >
+
+      <Route path="/topDeals">
+        <Deals items={items}/>
+      </Route >
+
+      <Route path="/account">
+        <Account />
+      </Route >
 
 
 
-    </div>
+
+
+    </div >
   );
 }
 
