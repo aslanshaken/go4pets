@@ -2,12 +2,12 @@ import {Link } from "react-router-dom";
 function Showallcategories(props) {
     return (
         <div className="allCategoriesLinks" >
-            <Link to="/dogs"> <div id="noUnder" > Dog </div></Link>
-            <Link to="/cats"> <div id="noUnder" > Cat </div></Link>
-            <Link to="/fish"> <div id="noUnder" > Fish </div></Link>
-            <Link to="/birds"> <div id="noUnder" > Bird </div></Link>
-            <Link to="/topDeals"><div id="noUnder" > Top Deals </div></Link>
-            <Link to="/account"> <div id="noUnder" > Account </div></Link>
+            <Link to="/dogs" id="noUnder" >  Dog </Link>
+            <Link to="/cats" id="noUnder"> Cat </Link>
+            <Link to="/fish" id="noUnder" >  Fish </Link>
+            <Link to="/birds" id="noUnder"> Bird </Link>
+            <Link to="/topDeals" id="noUnder">Top Deals </Link>
+            <Link to="/account" id="noUnder"> Account </Link>
         </div>
     )
 

@@ -13,6 +13,7 @@ import Fish from "./components/Fish";
 import Birds from "./components/Birds";
 import Deals from "./components/Deals";
 import Account from "./components/Account";
+import AddItem from "./components/AddItem";
 
 
 
@@ -75,7 +76,10 @@ function App() {
       <Route path="/account">
         <Account />
       </Route >
-
+      
+      <Route path="/additem">
+        <AddItem />
+      </Route>
 
 
 

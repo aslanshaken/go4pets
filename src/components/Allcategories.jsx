@@ -9,8 +9,8 @@ function Allcategories(params) {
                 <form>
                     <button type="button" onClick={() => setClose(!close)}  >
                         {close
-                            ? <img id="hamburgerImg" src="https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-close-512.png" />
-                            : <img id="hamburgerImg" src="https://cdn3.iconfinder.com/data/icons/e-commerce-8/91/hamburger-512.png" />
+                            ? <img id="hamburgerImg" src="https://cdn0.iconfinder.com/data/icons/controls-and-navigation-arrows-3/24/146-512.png" />
+                            : <img id="hamburgerImg" src="https://img.icons8.com/metro/26/000000/menu.png" />
                         }
                     </button>
                 </form>

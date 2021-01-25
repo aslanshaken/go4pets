@@ -22,7 +22,7 @@ function Showsearcheditem(props) {
                                     <Link to={`/item/${item.id}`}>
                                         <div> <img id="searchImage" src={item.fields.image} /></div>
                                     </Link>
-                                    <div><p>-------------------------------------------</p> </div>
+                                    {/* <div><p>-------------------------------------------</p> </div> */}
                                     <div id="searchTitle" >{item.fields.title} </div>
                                     <div><h4>Rating: {item.fields.rating}</h4></div>
                                     <div><h4>Price: ${item.fields.price}</h4></div>
