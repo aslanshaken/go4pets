@@ -10,11 +10,8 @@ function Item(props) {
     );
 
     const handleDelete = async () => {
-        //create a recordURL by interpolation the baseURL with date's
         const recordURL = `${baseURL}/${params.id}`
-        //we are going to make an axios DELETE request to recordURL with 
         await axios.delete(recordURL, config)
-        // trigger the useEffect 
         // props.setToggleFetch((prev) => !prev);
     }
 
@@ -32,9 +29,9 @@ function Item(props) {
 
             <div className="searchRow">
                 <div className="searchLeft" > LEFT </div>
-                <div className="searchMiddle" >
+                <div className="showMiddle" >
 
-                    <div className="showSearchItem" >
+                    <div className="showItem" >
                         <div> <img id="itemImage" src={item.fields.image} /></div>
                         <div><p>-------------------------------------------</p> </div>
                         <div id="searchTitle" >{item.fields.title} </div>

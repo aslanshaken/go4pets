@@ -37,8 +37,13 @@
     justify-content: center;
     text-align: center;
     border: 2px solid rgb(67, 5, 5);
+    width: 300px;
+    height: 400px;
+    margin-bottom: 10px;
+
 
 }
+
 
 .showSearchItem div {
     margin: 15px;
@@ -61,10 +66,10 @@
 }
 
 .searchMiddle {
-    display: flex;
-    flex-direction: unset;
-    justify-content: space-around;
+    columns: 2 auto;
 }
+
+
 
 /* ITEM */
 #itemImage {
@@ -77,6 +82,21 @@
     font-style: italic;
 }
 
+
+.showItem {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    border: 2px solid rgb(67, 5, 5);
+}
+
+
+.showItem div {
+    margin: 15px;
+}
+
+.showMiddle {}
 
 /* All Categories */
 #hamburgerImg {
@@ -211,14 +231,85 @@
 
 /* Shopping Cart */
 
-.shoppingLocation{
+.shoppingLocation {
     display: flex;
     justify-content: flex-end;
     /* border: 2px solid black; */
     margin: -55px 200px 0px 0px;
 }
 
-#cartButton{
+#cartButton {
     width: 50px;
     height: 45px;
+}
+
+
+/* ITEMS */
+
+.searchMiddleItems {
+    columns: 4 auto;
+}
+
+.showItems {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    border: 2px solid rgb(67, 5, 5);
+    width: 200px;
+    height: 400px;
+    margin-bottom: 10px;
+}
+
+.showItems div {
+    margin: 15px;
+}
+
+
+/* Brands */
+
+.brandsMiddle {
+    border: 2px solid rgb(67, 5, 5);
+    width: 860px;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.brandsMiddle div img {
+    width: 150px;
+    height: 150px;
+    margin: 30px;
+}
+
+.mainMiddle p {
+    text-align: center;
+    font-weight: 800;
+    font-size: 21px;
+}
+
+
+/* FACTS */
+
+.factsMiddle{
+  
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+#factsPosts img {
+    width: 250px;
+    height: 200px;
+}
+
+#factsPosts{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    width: 340px;
+    height: 340px;
 }

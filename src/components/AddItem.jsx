@@ -44,7 +44,7 @@ function AddItem(props) {
 
             <div className="searchRow">
                 <div className="searchLeft" > LEFT </div>
-                <div className="searchMiddle" >
+                <div>
                     <div className="formCenter" >
                         <form onSubmit={handleSubmit} >
                             <h1>Post an Item for Sale</h1>

@@ -1,5 +1,7 @@
 import Nav from "./Nav"
-import { Route } from "react-router-dom";
+import Items from "./Items";
+import Brands from "./Brands"
+import PetFacts from "./PetFacts";
 
 function Home(props) {
     return (
@@ -7,7 +9,9 @@ function Home(props) {
 
             {/* HEADER */}
             <Nav />
-
+            <Items items={props.items} />
+            <Brands />
+            <PetFacts />
 
         </div>
     )
