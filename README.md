@@ -119,6 +119,7 @@ Tablet view:
 | Hamburger bar -> all categories                                     | H        | 6hrs           | 0hrs          | 0hrs        |
 | Main image with circles                                             | H        | 1hrs           | 0hrs          | 0hrs        |
 | Add Item "Post"                                                     | H        | 4hrs           | 0hrs          | 0hrs        |
+| Brands and Facts                                                    | H        | 2hrs           | 0hrs          | 0hrs        |
 | Total                                                               | H        | 0hrs           |               |             |
 
 
