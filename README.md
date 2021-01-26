@@ -22,7 +22,7 @@ Tablet view:
 1. https://github.com/leeuwork/go4pets/blob/main/image/tablet.jpg?raw=true
 
 ## Component Hierarchy
-1. https://github.com/leeuwork/go4pets/blob/main/Hierarchy.jpg?raw=true
+1. https://github.com/leeuwork/go4pets/blob/main/image/go4pets-Diagram.jpg?raw=true
 
 ## API and Data Sample
 
