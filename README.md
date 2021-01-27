@@ -101,25 +101,25 @@ Tablet view:
 
 | Component                                                           | Priority | Estimated Time | Time Invested | Actual Time |
 | ------------------------------------------------------------------- | :------: | :------------: | :-----------: | :---------: |
-| Airtable setup                                                      | H        | 4hrs           | 0hrs          | 0hrs        |
-| Create react-app, and add url along with keys                       | H        | 1hrs           | 0hrs          | 0hrs        |
-| Draw.io                                                             | H        | 10hrs          | 0hrs          | 0hrs        |
-| Airtable add info                                                   | H        | 1hrs           | 0hrs          | 0hrs        |
-| Search bar                                                          | H        | 10hrs          | 0hrs          | 0hrs        |
-| Hamburger bar -> all categories                                     | H        | 6hrs           | 0hrs          | 0hrs        |
-| Main image with circles                                             | H        | 1hrs           | 0hrs          | 0hrs        |
-| Add Item "Post"                                                     | H        | 4hrs           | 0hrs          | 0hrs        |
-| Brands and Facts                                                    | H        | 2hrs           | 0hrs          | 0hrs        |
-| Add second airtable for user info and apply correct to account page | H        | 5hrs           | 0hrs          | 0hrs        |
-| CSS                                                                 | H        | 10hrs          | 0hrs          | 0hrs        |
-| Total                                                               | H        | 0hrs           |               |             |
+| Airtable setup                                                      | H        | 2hrs           | 4hrs          | 4hrs        |
+| Create react-app, and add url along with keys                       | H        | 1hrs           | 1hrs          | 1hrs        |
+| Draw.io                                                             | H        | 5hrs           | 10hrs         | 10hrs       |
+| Airtable add info                                                   | H        | 1hrs           | 1hrs          | 1hrs        |
+| Search bar                                                          | H        | 6hrs           | 10hrs         | 10hrs       |
+| Hamburger bar -> all categories                                     | H        | 10hrs          | 6hrs          | 6hrs        |
+| Main image with circles                                             | H        | 1hrs           | 1hrs          | 1hrs        |
+| Add Item "Post"                                                     | H        | 2hrs           | 4hrs          | 4hrs        |
+| Brands and Facts                                                    | H        | 2hrs           | 2hrs          | 2hrs        |
+| Add second airtable for user info and apply correct to account page | H        | 6hrs           | 5hrs          | 5hrs        |
+| CSS                                                                 | H        | 12hrs          | 10hrs         | 10hrs       |
+| Total                                                               | H        | 48hrs          | 54hrs         | 54hrs       |
 
 
 ## SWOT Analysis
 
 ### Strengths:
 
-### Weaknesses:
+### Weaknesses: 
 
 ### Opportunities:
 
