@@ -424,6 +424,40 @@
 
 
 
+    .formCenter {
+        display: flex;
+        justify-content: center;
+        border: 2px solid black;
+    }
+
+    .formCenter form h1 {
+        text-align: center;
+    }
+
+    #column-center {
+        display: flex;
+        flex-direction: column;
+        margin: 20px;
+    }
+
+    #column-center label {
+        text-align: center;
+        margin: 5px;
+        font-size: 20px;
+
+    }
+
+    #column-center input {
+        width: 300px;
+    }
+
+
+
+    .searchMiddle {
+        columns: 1 auto;
+    }
+
+
 
 
 

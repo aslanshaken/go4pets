@@ -28,7 +28,7 @@ function Item(props) {
             <Nav />
 
             <div className="searchRow">
-                <div className="searchLeft" > LEFT </div>
+                <div className="searchLeft" > </div>
                 <div className="showMiddle" >
 
                     <div className="showItem" >
@@ -44,7 +44,7 @@ function Item(props) {
 
                 </div>
 
-                <div className="searchRight" > RIGHT </div>
+                <div className="searchRight" > </div>
 
 
             </div>

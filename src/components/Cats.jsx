@@ -28,7 +28,7 @@ function Cats(props) {
                         }
                     })}
                 </div>
-                <div className="searchRight" > RIGHT </div>
+                <div className="searchRight" >  </div>
             </div>
 
         </div>
