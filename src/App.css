@@ -372,6 +372,14 @@
         border: 5px solid rgb(199, 76, 19);
     }
 
+    .mainCircle {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        /* border: 2px solid black; */
+        margin: 50px 10px 10px 10px;
+    }
+
 
     .searchLeft,
     .searchRight {
