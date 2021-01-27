@@ -89,44 +89,37 @@ Tablet view:
 
 |  Day | Deliverable | Status
 |---|---| ---|
-|January 20-30| Prompt / Wireframes / Priority Matrix / Timeframes | Incomplete
-|January 20| Project Approval | Incomplete
-|January 22| Core Application Structure (HTML, CSS, etc.) | Incomplete
-|January 25| Pseudocode / actual code | Incomplete
-|January 27| Initial Clickable Model  | Incomplete
-|January 30| MVP | Incomplete
+|January 20-30| Prompt / Wireframes / Priority Matrix / Timeframes | Completed
+|January 20| Project Approval | Completed
+|January 22| Core Application Structure (HTML, CSS, etc.) | Completed
+|January 25| Pseudocode / actual code | Completed
+|January 27| Initial Clickable Model  | Completed
+|January 30| MVP | Completed
 |February 2 | Presentations | Incomplete
 
 ## Timeframes
 
 | Component                                                           | Priority | Estimated Time | Time Invested | Actual Time |
 | ------------------------------------------------------------------- | :------: | :------------: | :-----------: | :---------: |
-| Airtable setup                                                      | H        | 4hrs           | 0hrs          | 0hrs        |
-| Create react-app, and add url along with keys                       | H        | 1hrs           | 0hrs          | 0hrs        |
-| Nav bar                                                             | H        | 4hrs           | 0hrs          | 0hrs        |
-| All categories links                                                | H        | 2hrs           | 0hrs          | 0hrs        |
-| Get and show all items from airtable to page                        | H        | 5hrs           | 0hrs          | 0hrs        |
-| Add second airtable for user info and apply correct to account page | H        | 5hrs           | 0hrs          | 0hrs        |
-| Popular Brands                                                      | H        | 2hrs           | 0hrs          | 0hrs        |
-| Additional Posts                                                    | H        | 3hrs           | 0hrs          | 0hrs        |
-| Shopping Cart                                                       | H        | 5hrs           | 0hrs          | 0hrs        |
-| Search bar                                                          | H        | 5hrs           | 0hrs          | 0hrs        |
-| CSS                                                                 | H        | 10hrs          | 0hrs          | 0hrs        |
-| ____                                                                | H        | 0hrs           | 0hrs          | 0hrs        |
-| Draw.io                                                             | H        | 10hrs          | 0hrs          | 0hrs        |
-| Airtable add info                                                   | H        | 1hrs           | 0hrs          | 0hrs        |
-| Search bar                                                          | H        | 10hrs          | 0hrs          | 0hrs        |
-| Hamburger bar -> all categories                                     | H        | 6hrs           | 0hrs          | 0hrs        |
-| Main image with circles                                             | H        | 1hrs           | 0hrs          | 0hrs        |
-| Add Item "Post"                                                     | H        | 4hrs           | 0hrs          | 0hrs        |
-| Total                                                               | H        | 0hrs           |               |             |
+| Airtable setup                                                      | H        | 2hrs           | 4hrs          | 4hrs        |
+| Create react-app, and add url along with keys                       | H        | 1hrs           | 1hrs          | 1hrs        |
+| Draw.io                                                             | H        | 5hrs           | 10hrs         | 10hrs       |
+| Airtable add info                                                   | H        | 1hrs           | 1hrs          | 1hrs        |
+| Search bar                                                          | H        | 6hrs           | 10hrs         | 10hrs       |
+| Hamburger bar -> all categories                                     | H        | 10hrs          | 6hrs          | 6hrs        |
+| Main image with circles                                             | H        | 1hrs           | 1hrs          | 1hrs        |
+| Add Item "Post"                                                     | H        | 2hrs           | 4hrs          | 4hrs        |
+| Brands and Facts                                                    | H        | 2hrs           | 2hrs          | 2hrs        |
+| Add second airtable for user info and apply correct to account page | H        | 6hrs           | 5hrs          | 5hrs        |
+| CSS                                                                 | H        | 12hrs          | 10hrs         | 10hrs       |
+| Total                                                               | H        | 48hrs          | 54hrs         | 54hrs       |
 
 
 ## SWOT Analysis
 
 ### Strengths:
 
-### Weaknesses:
+### Weaknesses: 
 
 ### Opportunities:
 
