@@ -2,7 +2,7 @@ function Brands(props) {
     return (
         <div>
             <div className="searchRow">
-                <div className="searchLeft" > LEFT </div>
+                <div className="searchLeft" >  </div>
                 <div className="mainMiddle">
                     <p>Popular Brands</p>
                 <div className="brandsMiddle" >
@@ -23,7 +23,7 @@ function Brands(props) {
                 </div>
 
 
-                <div className="searchRight" > RIGHT </div>
+                <div className="searchRight" > </div>
             </div>
 
         </div>

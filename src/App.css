@@ -292,11 +292,11 @@
 
 /* FACTS */
 
-.factsMiddle{
-  
+.factsMiddle {
+
     display: flex;
     justify-content: space-around;
-    
+
 }
 
 #factsPosts img {
@@ -304,12 +304,120 @@
     height: 200px;
 }
 
-#factsPosts{
+#factsPosts {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
+
     width: 340px;
     height: 340px;
+}
+
+#itemsWord {
+    text-align: center;
+    color: #ac1e1e;
+    margin-bottom: 30px;
+}
+
+
+@media only screen and (max-width: 380px) {
+
+    #searchInput {
+        width: 200px;
+        height: 15px;
+        border: 2px solid rgb(67, 5, 5);
+    }
+
+    #searchButton {
+        background-color: #F2F2F2 !important;
+        color: #ac1e1e;
+        height: 22px;
+        font-weight: 900;
+        border-color: #ddd;
+
+    }
+
+    .hamburgerMain {
+        margin: 5px 0px 0px 20px;
+        /* border: 2px solid black; */
+        position: static;
+    }
+
+    .addButtonLocation {
+        display: flex;
+        justify-content: flex-end;
+        /* border: 2px solid black; */
+        margin: -50px 100px 5px 0px;
+
+    }
+
+    .shoppingLocation {
+        display: flex;
+        justify-content: flex-end;
+        /* border: 2px solid black; */
+        margin: -60px 10px 0px 0px;
+    }
+
+    .mainImageCenter {
+        margin: 20px;
+        display: flex;
+        justify-content: center;
+        /* border: 2px solid black; */
+    }
+
+    .mainImageCenter img {
+        width: 300px;
+        height: 200px;
+        border: 5px solid rgb(199, 76, 19);
+    }
+
+
+    .searchLeft,
+    .searchRight {
+        min-width: 5px;
+        text-align: center;
+    }
+
+
+    .searchMiddleItems {
+        columns: 1 auto;
+    }
+
+
+    .mainMiddle p {
+        text-align: center;
+        font-weight: 500;
+        font-size: 21px;
+    }
+
+    .brandsMiddle {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        border: 2px solid rgb(67, 5, 5);
+        width: 200px;
+        height: 1000px;
+    }
+
+    .factsMiddle {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .searchRow {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 0px;
+        margin-bottom: 50px;
+    }
+
+
+
+
+
+
+
 }

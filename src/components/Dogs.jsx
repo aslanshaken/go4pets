@@ -7,7 +7,7 @@ function Dogs(props) {
             <Nav />
 
             <div className="searchRow">
-                <div className="searchLeft" > LEFT </div>
+                <div className="searchLeft" >  </div>
                 <div className="searchMiddle" >
 
                     {props.items.map((item) => {
@@ -28,7 +28,7 @@ function Dogs(props) {
                         }
                     })}
                 </div>
-                <div className="searchRight" > RIGHT </div>
+                <div className="searchRight" ></div>
             </div>
 
         </div>

@@ -43,7 +43,7 @@ function AddItem(props) {
             <Nav />
 
             <div className="searchRow">
-                <div className="searchLeft" > LEFT </div>
+                <div className="searchLeft" >  </div>
                 <div>
                     <div className="formCenter" >
                         <form onSubmit={handleSubmit} >
@@ -129,7 +129,7 @@ function AddItem(props) {
 
                 </div>
 
-                <div className="searchRight" > RIGHT </div>
+                <div className="searchRight" > </div>
 
 
             </div>

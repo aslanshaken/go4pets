@@ -4,9 +4,10 @@ function Items(props) {
     return (
         <div>
             <div className="searchRow">
-                <div className="searchLeft" > LEFT </div>
-                <div className="searchMiddleItems" >
-
+                <div className="searchLeft" ></div>
+                <div>
+                    <h1  id="itemsWord" >Items for Sale</h1>
+                    <div className="searchMiddleItems" >
                     {props.items.map((item) => {
                         return (
 
@@ -22,10 +23,11 @@ function Items(props) {
 
                         )
                     })}
+                    </div>
 
                 </div>
 
-                <div className="searchRight" > RIGHT </div>
+                <div className="searchRight" >  </div>
 
 
             </div>

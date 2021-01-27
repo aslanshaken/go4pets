@@ -7,7 +7,7 @@ function Cats(props) {
             <Nav />
 
             <div className="searchRow">
-                <div className="searchLeft" > LEFT </div>
+                <div className="searchLeft" > </div>
                 <div className="searchMiddle" >
 
                     {props.items.map((item) => {

@@ -3,7 +3,7 @@ function PetFacts(props) {
         <div>
             <div>
                 <div className="searchRow">
-                    <div className="searchLeft" > LEFT </div>
+                    <div className="searchLeft" > </div>
                     <div className="mainMiddle">
                         <p>Facts</p>
                         <div className="factsMiddle" >
@@ -37,7 +37,7 @@ function PetFacts(props) {
                     </div>
 
 
-                    <div className="searchRight" > RIGHT </div>
+                    <div className="searchRight" > </div>
                 </div>
 
             </div>
