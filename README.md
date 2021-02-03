@@ -95,7 +95,7 @@ Tablet view:
 |January 25| Pseudocode / actual code | Completed
 |January 27| Initial Clickable Model  | Completed
 |January 30| MVP | Completed
-|February 2 | Presentations | Incomplete
+|February 2 | Presentations | Completed
 
 ## Timeframes
 
