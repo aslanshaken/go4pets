@@ -1,25 +1,10 @@
 import Nav from "./Nav";
-// import { Route } from "react-router-dom"
-// import axios from "axios";
-// import { baseURLUser, config } from "../services";
+import { Route } from "react-router-dom"
+import axios from "axios";
+import { baseURLUser, config } from "../services";
 import { useEffect, useState } from "react";
 
 function Account(props) {
-
-    // GET
-    // const [users, setUsers] = useState([]);
-    // const [toggleFetch, setToggleFetch] = useState(false);
-
-    // GET
-    // useEffect(() => {
-
-    //     const getItems = async () => {
-    //         const resp = await axios.get(baseURLUser, config);
-    //         setUsers(resp.data.records);
-    //     };
-    //     getItems();
-    // }, []);
-
 
     // POST
     const [name, setName] = useState()
@@ -27,15 +12,17 @@ function Account(props) {
     const [phone, setPhone] = useState()
 
 
+    const handleSubmit = async (e) => {
+        e.preventDefault();
 
-    const assignPerson = () => {
-        props.users.map((user) => {
-            setName(user.fields.name)
-            setEmail(user.fields.email)
-            setPhone(user.fields.phone)
-        })
-    }
-
+        const fields = {
+            name,
+            email,
+            phone,
+        };
+        await axios.put(baseURLUser, { fields }, config);
+        // props.setToggleFetch((prev) => !prev);
+    };
 
 
     console.log(name)
@@ -50,42 +37,47 @@ function Account(props) {
                 <div className="searchLeft" > </div>
                 <div>
                     <div className="formCenter" >
-                        <form  >
-                            <h1>User Information</h1>
-                            <div id="column-center" >
-                                <label htmlFor="name" >Name</label>
-                                <input
-                                    name="name"
-                                    type="text"
-                                    value={name}
-                                    onChange={(e) => setName(e.target.value)}
-                                />
-                            </div>
+                        {props.newUser.map((user) => {
+                            
+                            return (
+                                <form onSubmit={handleSubmit} >
+                                    <h1>User Information</h1>
+                                    <div id="column-center" >
+                                        <label htmlFor="name" >Name</label>
+                                        <input
+                                            name="name"
+                                            type="text"
+                                            value={user.fields.name}
+                                            onChange={(e) => setName(e.target.value)}
+                                        />
+                                    </div>
 
-                            <div id="column-center" >
-                                <label htmlFor="email" >Email</label>
-                                <input
-                                    name="email"
-                                    type="email"
-                                    value={email}
-                                    onChange={(e) => setEmail(e.target.value)}
-                                />
-                            </div>
+                                    <div id="column-center" >
+                                        <label htmlFor="email" >Email</label>
+                                        <input
+                                            name="email"
+                                            type="email"
+                                            value={user.fields.email}
+                                            onChange={(e) => setEmail(e.target.value)}
+                                        />
+                                    </div>
 
-                            <div id="column-center" >
-                                <label htmlFor="phone" >Phone</label>
-                                <input
-                                    name="phone"
-                                    type="text"
-                                    value={phone}
-                                    onChange={(e) => setPhone(e.target.value)}
-                                />
-                            </div>
+                                    <div id="column-center" >
+                                        <label htmlFor="phone" >Phone</label>
+                                        <input
+                                            name="phone"
+                                            type="text"
+                                            value={user.fields.phone}
+                                            onChange={(e) => setPhone(e.target.value)}
+                                        />
+                                    </div>
 
-                            <div id="column-center" >
-                                <button id="submitButton" type="submit" >Submit</button>
-                            </div>
-                        </form>
+                                    <div id="column-center" >
+                                        <button id="submitButton" type="submit" >Submit</button>
+                                    </div>
+                                </form>
+                            )
+                        })}
                     </div>
                 </div>
 

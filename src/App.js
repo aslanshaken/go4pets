@@ -37,7 +37,7 @@ function App() {
     getItems();
 
     // USER
-    const getUsers= async () => {
+    const getUsers = async () => {
       const resp = await axios.get(baseURLUser, config);
       setUsers(resp.data.records);
     };
@@ -82,9 +82,11 @@ function App() {
         <Deals items={items} />
       </Route >
 
+
       <Route path="/account">
-        <Account users={users} />
+        <Account newUser={users} />
       </Route >
+
 
       <Route path="/additem">
         <AddItem />

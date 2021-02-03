@@ -33,7 +33,7 @@ function AddItem(props) {
             animal,
             link,
         };
-        await axios.post(baseURL, { fields }, config);
+        await axios.put(baseURL, { fields }, config);
         console.log("success!");
         // props.setToggleFetch((prev) => !prev);
     };
