@@ -9,7 +9,7 @@ function Home(props) {
 
             {/* HEADER */}
             <Nav />
-            <Items items={props.items} />
+            <Items items={props.items} setToggleFetch={props.setToggleFetch} />
             <Brands />
             <PetFacts />
 

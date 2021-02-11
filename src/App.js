@@ -42,7 +42,7 @@ function App() {
       setUsers(resp.data.records);
     };
     getUsers();
-  }, []);
+  }, [toggleFetch]);
 
 
 
@@ -51,7 +51,7 @@ function App() {
     <div className="">
 
       <Route exact path="/">
-        <Home items={items} />
+        <Home items={items} setToggleFetch={setToggleFetch} />
       </Route>
 
       <Route path="/search/:value" >
