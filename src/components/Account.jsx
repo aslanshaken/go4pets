@@ -1,8 +1,8 @@
 import Nav from "./Nav";
-import { Route } from "react-router-dom"
+// import { Route } from "react-router-dom"
 import axios from "axios";
 import { baseURLUser, config } from "../services";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 
 function Account(props) {
 

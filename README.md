@@ -4,9 +4,6 @@
 
 Go4Pets
 
-## Website View
-Link: https://gifted-swanson-7c7f5a.netlify.app/
-
 ## Project Description
 
 Go4pets is e-commerce platform for pets suppliers that was built using Airtable(third-party) and React. It provides a service to customers who have pets. A user is able to see all available products, rating and their descriptions. Each item on home page leads to corresponding page that shows additional information. Additionally, a user is able to add their own item for sale.

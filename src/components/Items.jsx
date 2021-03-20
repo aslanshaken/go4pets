@@ -1,36 +1,24 @@
-import {Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 function Items(props) {
     return (
-        <div>
-            <div className="searchRow">
-                <div className="searchLeft" ></div>
-                <div>
-                    <h1  id="itemsWord" >Items for Sale</h1>
-                    <div className="searchMiddleItems" >
-                    {props.items.map((item) => {
-                        return (
-
-                            <div className="showItems" >
-                                <Link to={`/item/${item.id}`}>
-                                    <div> <img id="searchImage" src={item.fields.image} /></div>
-                                </Link>
-                                {/* <div><p>-------------------------------------------</p> </div> */}
+        <div className="items-container">
+            <h1 id="itemsWord" >Items for Sale</h1>
+            <div className="searchMiddleItems" >
+                {props.items.map((item) => {
+                    return (
+                        <Link to={`/item/${item.id}`} id="noUnder">
+                            <div className="showItems" key={item.id} >
+                                <div> <img id="searchImage" src={item.fields.image} alt={item.id} /></div>
                                 <div id="searchTitle" >{item.fields.title} </div>
                                 <div>Rating: {item.fields.rating}</div>
                                 <div>Price: ${item.fields.price}</div>
                             </div>
-
-                        )
-                    })}
-                    </div>
-
-                </div>
-
-                <div className="searchRight" >  </div>
-
-
+                        </Link>
+                    )
+                })}
             </div>
+
         </div>
     )
 }

@@ -5,6 +5,7 @@ import { baseURL, config } from "../services";
 
 function Item(props) {
     const params = useParams();
+
     const item = props.items.find(
         (item) => item.id === params.id
     );
@@ -12,7 +13,6 @@ function Item(props) {
     const handleDelete = async () => {
         const recordURL = `${baseURL}/${params.id}`
         await axios.delete(recordURL, config)
-        // props.setToggleFetch((prev) => !prev);
     }
 
     if (!item) {
@@ -26,26 +26,17 @@ function Item(props) {
     return (
         <div>
             <Nav />
+            <h3 id="center">{item.fields.title} </h3>
 
-            <div className="searchRow">
-                <div className="searchLeft" > </div>
-                <div className="showMiddle" >
-
-                    <div className="showItem" >
-                        <div> <img id="itemImage" src={item.fields.image} /></div>
-                        <div><p>-------------------------------------------</p> </div>
-                        <div id="searchTitle" >{item.fields.title} </div>
-                        <div>Rating: {item.fields.rating}</div>
-                        <div>Price: ${item.fields.price}</div>
-                        <div id="itemDescription">Description: {item.fields.description}</div>
-                        <div><h4><a href={item.fields.link}> Buy on Amazon </a></h4></div>
-                        <div><button onClick={handleDelete} > Delete </button></div>
-                    </div>
-
+            <div className="item-container" >
+                <img id="itemImage" src={item.fields.image}   alt="item"/>
+                <div className="showItem" >
+                    <div id="itemDescription">Description: {item.fields.description}</div>
+                    <div><h4><a href={item.fields.link}> Buy on Amazon </a></h4></div>
+                    <div>Rating: {item.fields.rating}</div>
+                    <div>Price: ${item.fields.price}</div>
+                    <div><button onClick={handleDelete} > Delete </button></div>
                 </div>
-
-                <div className="searchRight" > </div>
-
 
             </div>
 

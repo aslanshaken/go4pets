@@ -7,11 +7,8 @@ import { useEffect, useState } from "react";
 import Home from "./components/Home";
 import Showsearcheditem from "./components/Showsearcheditem";
 import Item from "./components/Item";
-import Dogs from "./components/Dogs";
-import Cats from "./components/Cats";
-import Fish from "./components/Fish";
-import Birds from "./components/Birds";
-import Deals from "./components/Deals";
+import Pets from "./components/Pets";
+// import Deals from "./components/Deals";
 import Account from "./components/Account";
 import AddItem from "./components/AddItem";
 
@@ -62,25 +59,13 @@ function App() {
         <Item items={items} />
       </Route>
 
-      <Route path="/dogs">
-        <Dogs items={items} />
+      <Route path="/pets/:id">
+        <Pets items={items} />
       </Route>
 
-      <Route path="/cats">
-        <Cats items={items} />
-      </Route >
-
-      <Route path="/fish">
-        <Fish items={items} />
-      </Route >
-
-      <Route path="/birds">
-        <Birds items={items} />
-      </Route >
-
-      <Route path="/topDeals">
+      {/* <Route path="/topDeals">
         <Deals items={items} />
-      </Route >
+      </Route > */}
 
 
       <Route path="/account">

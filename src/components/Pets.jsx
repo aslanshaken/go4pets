@@ -1,18 +1,18 @@
-import { useParams } from "react-router-dom";
 import Nav from "./Nav";
-import { Link } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 
-function Showsearcheditem(props) {
+function Pets(props) {
     const params = useParams();
+    console.log(params.id)
 
     return (
         <div>
             <Nav />
-            <div className="items-container" >
-                <h3>Results for {params.value}</h3>
+            <div className="items-container">
+                <h1 id="itemsWord" >Suppliers for {params.id.toUpperCase()}</h1>
                 <div className="searchMiddleItems" >
                     {props.items.map((item) => {
-                        if (item.fields.title.toLowerCase().indexOf(params.value) >= 0) {
+                        if (item.fields.animal === params.id) {
                             return (
                                 <Link to={`/item/${item.id}`} id="noUnder">
                                     <div className="showItems" >
@@ -28,8 +28,7 @@ function Showsearcheditem(props) {
                 </div>
             </div>
         </div>
-
     )
 }
 
-export default Showsearcheditem
+export default Pets
