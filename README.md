@@ -2,7 +2,7 @@
 
 ## Project Name
 
-Go4Pets-https://gifted-swanson-7c7f5a.netlify.app/
+Go4Pets-https://go4pets.netlify.app/
 
 ## Project Description
 
